@@ -4,12 +4,12 @@
 
 
 .card-body {
-    background-color: whitesmoke;
+    background-color: rgb(209, 209, 209);
 }
 
 .card-header {
     color: whitesmoke;
-    background-color: rgb(82, 122, 133);
+    background-color:  rgb(82, 82, 82);
 }
 
 .employee-card {
