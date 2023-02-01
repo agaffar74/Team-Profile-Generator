@@ -31,7 +31,8 @@ This project is license under MIT Github licence
 Any pull request to contribute or suggestion to this project are welcome.
 
 ## Tests
-npm run test
+To run the test user needs to type the following command and enter
+ npm run test
 
 ## Questions
 If you have any questions or sugessions about this README creator app projects, please contact me directly via email or GitHub with the information below:
