@@ -36,5 +36,5 @@ npm run test
 ## Questions
 If you have any questions or sugessions about this README creator app projects, please contact me directly via email or GitHub with the information below:
 
-Email at a_gaffar74@yahoo.com.
-GitHub at https://github.com/agaffar74.
+* Email at a_gaffar74@yahoo.com.
+* GitHub at https://github.com/agaffar74.
