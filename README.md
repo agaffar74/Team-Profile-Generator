@@ -23,6 +23,8 @@ User need to run 'node index.js' to start the application and input all the nece
 ## Snapshots
 Snapshots of the generated HTML file
 
+![image](https://user-images.githubusercontent.com/115975620/216009831-1183a6da-d1d4-4b79-9dba-f532743c08e6.png)
+
 
 ## License
 This project is license under MIT Github licence
