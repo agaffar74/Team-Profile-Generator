@@ -1,22 +1,30 @@
-//Imports Classes
+//Imports required Classes
 const Manager = require("./lib/Manager.js");
 const Engineer = require("./lib/Engineer.js");
 const Intern = require("./lib/Intern.js");
 
-//Import packages
+//Import required packages
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
+//Output Directory and file path
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
+
+//Import relevent HTML Template
 const generateTeam = require("./src/page-template.js")
 
+//Empty array of Team
 teamArray = [];
 
 
-
+//Team App starts here
 const teamApp = () => {
+  
+  /*--------------------------------------------------------------*/
+  /*                       Adding team members form option        */
+  /*--------------------------------------------------------------*/
 
   const createTeam = () => {
     inquirer.prompt([{
@@ -45,7 +53,9 @@ const teamApp = () => {
     })
   }
 
-
+  /*--------------------------------------------------------------*/
+  /*                      Input Data for Manager                  */
+  /*--------------------------------------------------------------*/
   const addManager = () => {
     inquirer.prompt ([
       
@@ -81,7 +91,9 @@ const teamApp = () => {
 
   }
 
-
+  /*--------------------------------------------------------------*/
+  /*                      Input Data for Engineer                 */
+  /*--------------------------------------------------------------*/
   const addEngineer = () => {
       inquirer.prompt([
         
@@ -116,7 +128,10 @@ const teamApp = () => {
       });
 
     }
-
+    
+    /*--------------------------------------------------------------*/
+    /*                      Input Data for Intern                */
+    /*--------------------------------------------------------------*/
     const  addIntern = () =>{
       inquirer.prompt([
         
@@ -151,6 +166,10 @@ const teamApp = () => {
       });
 
     }
+
+  /*--------------------------------------------------------------*/
+  /*                      Generate the HTML File                  */
+  /*--------------------------------------------------------------*/  
 
   const  htmlBuilder = () => {
       console.log("Team created!")
