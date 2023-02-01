@@ -8,6 +8,7 @@ This is an application that generates HTML files using user's input from a comma
   * Installation
   * Usage
   * Snapshots 
+  * * Walkthroug Video
   * License
   * Contribution
   * Test
@@ -25,6 +26,9 @@ Snapshots of the generated HTML file
 
 ![image](https://user-images.githubusercontent.com/115975620/216009831-1183a6da-d1d4-4b79-9dba-f532743c08e6.png)
 
+## Walkthrough Video
+
+![Video](https://github.com/agaffar74/Team-Profile-Generator/blob/main/assets/Team%20Profe%20Generator.mp4)
 
 ## License
 This project is license under MIT Github licence
