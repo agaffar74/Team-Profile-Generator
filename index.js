@@ -48,7 +48,7 @@ const teamApp = () => {
           break;
 
         default:
-          htmlBuilder();
+          htmlCreator();
       }
     })
   }
@@ -171,7 +171,7 @@ const teamApp = () => {
   /*                      Generate the HTML File                  */
   /*--------------------------------------------------------------*/  
 
-  const  htmlBuilder = () => {
+  const  htmlCreator = () => {
       console.log("Team created!")
 
       fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
