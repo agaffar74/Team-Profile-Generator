@@ -1,7 +1,7 @@
 # Team Profile Generator
 
 
-## Description
+## <span style="color: red;">Description</span>
 This is an application that generates HTML files using user's input from a command-line interface. The application will take in information about employees on a team, then generate an HTML webpage that displays summaries for each team member.
 
 ## Table of Contents
