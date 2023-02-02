@@ -28,7 +28,7 @@ Snapshots of the generated HTML file
 
 ## Walkthrough Video
 
-![Video](https://github.com/agaffar74/Team-Profile-Generator/blob/main/assets/Team%20Profe%20Generator.mp4)
+https://youtu.be/xrHUxla1QjQ
 
 ## License
 This project is license under MIT Github licence
