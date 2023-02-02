@@ -8,7 +8,7 @@ This is an application that generates HTML files using user's input from a comma
   * Installation
   * Usage
   * Snapshots 
-  * * Walkthroug Video
+  * Walkthroug Video
   * License
   * Contribution
   * Test
